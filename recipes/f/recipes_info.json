@@ -1,0 +1,255 @@
+{
+    "53139": {
+        "id": "53139",
+        "name": "Fainá",
+        "cuisine": "Argentina",
+        "category": "Side",
+        "instructions": "Prepare the Batter: Whisk together chickpea flour, water, salt, and pepper. Let sit for at least 4 hours.\r\nBake: Preheat the oven to 220°C (430°F). Pour olive oil into a round baking dish and heat in the oven. Pour in the batter and bake for 25-30 minutes, until golden.\r\nServe: Slice and serve hot, optionally with black pepper on top.\r\nPro Tips:\r\n\r\nLet the batter rest for at least 2 hours, or overnight in the refrigerator, to ensure the chickpea flour fully hydrates and the flavors meld.\r\nFor a crispy edge, preheat the baking pan with oil in the oven before adding the batter.",
+        "image_url": "https://www.themealdb.com/images/media/meals/849jd81763075251.jpg",
+        "youtube_url": "",
+        "source_url": "https://www.munchery.com/blog/the-ten-iconic-dishes-of-argentina-and-how-to-cook-them-at-home/",
+        "ingredients": [
+            {
+                "ingredient": "Chickpea Flour",
+                "measure": "200g"
+            },
+            {
+                "ingredient": "Water",
+                "measure": "600ml"
+            },
+            {
+                "ingredient": "Olive Oil",
+                "measure": "4 tablespoons"
+            },
+            {
+                "ingredient": "Salt",
+                "measure": "To taste"
+            },
+            {
+                "ingredient": "Pepper",
+                "measure": "To taste"
+            }
+        ],
+        "tags": []
+    },
+    "53266": {
+        "id": "53266",
+        "name": "Falafel",
+        "cuisine": "Turkish",
+        "category": "Vegetarian",
+        "instructions": "step 1\r\nHeat 1 tbsp oil in a large pan, then fry the onion and garlic over a low heat for 5 mins until softened. Tip into a large mixing bowl with the chickpeas and spices, then mash together with a fork or potato masher until the chickpeas are totally broken down. Stir in the parsley or dried herbs, with seasoning to taste. Add the egg, then squish the mixture together with your hands.\r\n\r\nstep 2\r\nMould the mix into 6 balls, then flatten into patties. Heat the remaining oil in the pan, then fry the falafels on a medium heat for 3 mins on each side, until golden brown and firm. Serve hot or cold with couscous, pitta bread or salad.",
+        "image_url": "https://www.themealdb.com/images/media/meals/u5e9qq1763795441.jpg",
+        "youtube_url": "https://www.youtube.com/watch?v=NZcWedPKysk",
+        "source_url": "https://www.bbcgoodfood.com/recipes/spicy-falafels",
+        "ingredients": [
+            {
+                "ingredient": "Sunflower Oil",
+                "measure": "2 tablespoons"
+            },
+            {
+                "ingredient": "Onion",
+                "measure": "1 chopped"
+            },
+            {
+                "ingredient": "Garlic",
+                "measure": "1 clove peeled crushed"
+            },
+            {
+                "ingredient": "Chickpeas",
+                "measure": "400g"
+            },
+            {
+                "ingredient": "Ground Cumin",
+                "measure": "1 tsp"
+            },
+            {
+                "ingredient": "Ground Coriander",
+                "measure": "1 tsp"
+            },
+            {
+                "ingredient": "Parsley",
+                "measure": "Handful"
+            },
+            {
+                "ingredient": "Egg",
+                "measure": "1 beaten"
+            }
+        ],
+        "tags": []
+    },
+    "53091": {
+        "id": "53091",
+        "name": "Falafel Pita Sandwich with Tahini Sauce",
+        "cuisine": "Syrian",
+        "category": "Vegetarian",
+        "instructions": "Preheat the oven to 450 degrees F (230 degrees C). Place falafel on a baking sheet.\r\n\r\nBake in the preheated oven until heated through, 8 to 10 minutes.\r\n\r\nWhile falafel bake, whisk tahini, water, lemon juice, garlic, and paprika together in a bowl.\r\n\r\nCut about 1 inch from the top of each pita to form a pocket. Add 2 falafel to each pita with equal amounts lettuce, tomato, cucumber, pickle, and red onion. Drizzle each with about 1 tablespoon tahini sauce and some harissa.",
+        "image_url": "https://www.themealdb.com/images/media/meals/ae6clc1760524712.jpg",
+        "youtube_url": "https://www.youtube.com/watch?v=wt8nApxP5fE",
+        "source_url": "https://www.allrecipes.com/recipe/266014/falafel-pita-sandwich-with-tahini-sauce/",
+        "ingredients": [
+            {
+                "ingredient": "Falafel",
+                "measure": "12"
+            },
+            {
+                "ingredient": "Tahini",
+                "measure": "1/4 cup"
+            },
+            {
+                "ingredient": "Water",
+                "measure": "1/4 cup"
+            },
+            {
+                "ingredient": "Lemon Juice",
+                "measure": "2 tablespoons"
+            },
+            {
+                "ingredient": "Garlic",
+                "measure": "2 cloves"
+            },
+            {
+                "ingredient": "Paprika",
+                "measure": "1/4 tsp"
+            },
+            {
+                "ingredient": "Pita Bread",
+                "measure": "6"
+            },
+            {
+                "ingredient": "Lettuce",
+                "measure": "1"
+            },
+            {
+                "ingredient": "Tomato",
+                "measure": "1"
+            },
+            {
+                "ingredient": "Cucumber",
+                "measure": "1/2"
+            },
+            {
+                "ingredient": "Dill Pickles",
+                "measure": "1"
+            },
+            {
+                "ingredient": "Red Onions",
+                "measure": "1/4"
+            },
+            {
+                "ingredient": "Harissa Spice",
+                "measure": "3 tsp"
+            }
+        ],
+        "tags": []
+    },
+    "53123": {
+        "id": "53123",
+        "name": "Fårikål (Norwegian National Dish)",
+        "cuisine": "Norway",
+        "category": "Lamb",
+        "instructions": "▢\r\nCut the lamb into large pieces.\r\n▢\r\nSlice the cabbage into large wedges, keeping the core attached.\r\n▢\r\nAdd a layer of lamb pieces to the bottom of a large pot, fatty side down. Sprinkle with peppercorns and salt. Add a layer of cabbage wedges on top. Repeat with more layers of lamb, peppercorns, and cabbage, ending with cabbage on top.\r\n▢\r\nOptional: Sprinkle a couple of tablespoons on top of the lamb for a thicker stew.\r\n▢\r\nAdd water to the pot and bring to a boil. Cover and reduce heat. Cook on low heat for 2 – 3 hours, until the lamb gently falls away from the bone.\r\n▢\r\nServe with boiled potatoes and fresh parsley, covering generously with the fårikål broth.",
+        "image_url": "https://www.themealdb.com/images/media/meals/ttfxxn1762773067.jpg",
+        "youtube_url": "https://www.youtube.com/shorts/2mMT71Knp8E",
+        "source_url": "https://scandinaviancookbook.com/farikal-national-dish-of-norway/",
+        "ingredients": [
+            {
+                "ingredient": "Lamb",
+                "measure": "3 Lbs"
+            },
+            {
+                "ingredient": "White Cabbage",
+                "measure": "1 head"
+            },
+            {
+                "ingredient": "Whole black peppercorns",
+                "measure": "3  tablespoons"
+            },
+            {
+                "ingredient": "Salt",
+                "measure": "3 tsp"
+            },
+            {
+                "ingredient": "Water",
+                "measure": "1 1/2 cups"
+            },
+            {
+                "ingredient": "Flour",
+                "measure": "5 tablespoons"
+            }
+        ],
+        "tags": []
+    },
+    "53188": {
+        "id": "53188",
+        "name": "Fašírky",
+        "cuisine": "Slovakia",
+        "category": "Pork",
+        "instructions": "1. Prepare the Bread Mixture\r\nSoak the bread slices in milk or water until soft.\r\nSqueeze out excess liquid and mash into small crumbs.\r\n2. Mix the Ingredients\r\nIn a large bowl, combine ground meat, chopped onions, garlic, soaked bread, egg, and seasonings.\r\nMix well until evenly combined.\r\n3. Shape the Meat Patties\r\nTake portions of the mixture and shape them into palm-sized patties.\r\nFlatten slightly to help with even cooking.\r\n4. Coat the Patties\r\nLightly dust each patty with flour.\r\nDip into beaten egg, then coat with breadcrumbs for a crispy finish.\r\n5. Fry the Fašírky\r\nHeat vegetable oil in a pan over medium heat.\r\nFry the patties for 4-5 minutes per side until golden brown and fully cooked.\r\nTransfer to a paper towel-lined plate to drain excess oil.\r\n6. Serve and Enjoy\r\nServe Fašírky hot with mashed potatoes, cabbage salad, or fresh bread.\r\nEnjoy with mustard, pickles, or garlic sauce for extra flavor.",
+        "image_url": "https://www.themealdb.com/images/media/meals/gtpvwp1763363947.jpg",
+        "youtube_url": "https://www.youtube.com/watch?v=ecBMVy3p6Ns",
+        "source_url": "https://www.slovakia-foods.co.uk/blog/post/fasirky-recipe-how-to-make-authentic-slovak-meat-patties.html",
+        "ingredients": [
+            {
+                "ingredient": "Ground Pork",
+                "measure": "500g"
+            },
+            {
+                "ingredient": "Onion",
+                "measure": "1 medium chopped"
+            },
+            {
+                "ingredient": "Garlic",
+                "measure": "2 cloves minced"
+            },
+            {
+                "ingredient": "Bread",
+                "measure": "2 sliced"
+            },
+            {
+                "ingredient": "Milk",
+                "measure": "1 shot"
+            },
+            {
+                "ingredient": "Egg",
+                "measure": "1"
+            },
+            {
+                "ingredient": "Salt",
+                "measure": "1 teaspoon"
+            },
+            {
+                "ingredient": "Black Pepper",
+                "measure": "1/2 teaspoon"
+            },
+            {
+                "ingredient": "Marjoram",
+                "measure": "1 teaspoon"
+            },
+            {
+                "ingredient": "Mustard",
+                "measure": "1 tsp"
+            },
+            {
+                "ingredient": "Parsley",
+                "measure": "1 tablespoon chopped"
+            },
+            {
+                "ingredient": "Flour",
+                "measure": "1/2 cup"
+            },
+            {
+                "ingredient": "Egg",
+                "measure": "1 beaten"
+            },
+            {
+                "ingredient": "Breadcrumbs",
+                "measure": "1 cup"
+            },
+            {
+                "ingredient": "Vegetable Oil",
+                "measure": "For frying"
+            }
+        ],
+        "tags": []
+    }
+}

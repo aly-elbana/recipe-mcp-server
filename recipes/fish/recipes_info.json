@@ -1,0 +1,352 @@
+{
+    "52802": {
+        "id": "52802",
+        "name": "Fish pie",
+        "cuisine": "British",
+        "category": "Seafood",
+        "instructions": "01.Put the potatoes in a large pan of cold salted water and bring to the boil. Lower the heat, cover, then simmer gently for 15 minutes until tender. Drain, then return to the pan over a low heat for 30 seconds to drive off any excess water. Mash with 1 tbsp olive oil, then season.\r\n02.Meanwhile put the milk in a large sauté pan, add the fish and bring to the boil. Remove from the heat, cover and stand for 3 minutes. Remove the fish (reserving the milk) and pat dry with kitchen paper, then gently flake into an ovenproof dish, discarding the skin and any bones.\r\n03.Heat the remaining oil in a pan, stir in the flour and cook for 30 seconds. Gradually stir in 200-250ml of the reserved milk (discard the rest). Grate in nutmeg, season, then bubble until thick. Stir in the cream.\r\n04.Preheat the oven to 190°C/fan170°C/gas 5. Grate the artichokes and add to the dish with the leek, prawns and herbs. Stir the lemon zest and juice into the sauce, then pour over. Mix gently with a wooden spoon.\r\n05.Spoon the mash onto the fish mixture, then use a fork to make peaks, which will crisp and brown as it cooks. Sprinkle over the cheese, then bake for 35-40 minutes until golden and bubbling. Serve with wilted greens.",
+        "image_url": "https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg",
+        "youtube_url": "https://www.youtube.com/watch?v=2sX4fCgg-UI",
+        "source_url": "",
+        "ingredients": [
+            {
+                "ingredient": "Floury Potatoes",
+                "measure": "900g"
+            },
+            {
+                "ingredient": "Olive Oil",
+                "measure": "2 tbsp"
+            },
+            {
+                "ingredient": "Semi-skimmed Milk",
+                "measure": "600ml"
+            },
+            {
+                "ingredient": "White Fish Fillets",
+                "measure": "800g"
+            },
+            {
+                "ingredient": "Plain flour",
+                "measure": "1 tbsp"
+            },
+            {
+                "ingredient": "Nutmeg",
+                "measure": "Grating"
+            },
+            {
+                "ingredient": "Double Cream",
+                "measure": "3 tbsp"
+            },
+            {
+                "ingredient": "Jerusalem Artichokes",
+                "measure": "200g"
+            },
+            {
+                "ingredient": "Leek",
+                "measure": "1 finely sliced"
+            },
+            {
+                "ingredient": "Prawns",
+                "measure": "200g peeled raw"
+            },
+            {
+                "ingredient": "Parsley",
+                "measure": "Large handful"
+            },
+            {
+                "ingredient": "Dill",
+                "measure": "Handful"
+            },
+            {
+                "ingredient": "Lemon",
+                "measure": "Grated zest of 1"
+            },
+            {
+                "ingredient": "Gruyère",
+                "measure": "25g grated"
+            },
+            {
+                "ingredient": "Lemon",
+                "measure": "Juice of 1"
+            }
+        ],
+        "tags": [
+            "Fish",
+            "Pie",
+            "Breakfast",
+            "Baking"
+        ]
+    },
+    "53043": {
+        "id": "53043",
+        "name": "Fish fofos",
+        "cuisine": "Portuguese",
+        "category": "Seafood",
+        "instructions": "STEP 1\r\n\r\nPut the fish into a lidded pan and pour over enough water to cover. Bring to a simmer and gently poach for 10 minutes over a low heat with the lid on. Drain and flake the fish.\r\n\r\nSTEP 2\r\n\r\nPut the fish, potato, green chilli, coriander, cumin, black pepper, garlic and ginger in a large bowl. Season, add the rice flour, mix well and break in 1 egg. Stir the mixture and divide into 15, then form into small logs. Break the remaining eggs into a bowl and whisk lightly. Put the breadcrumbs into another bowl. Dip each fofo in the beaten egg followed by the breadcrumb mixture. Chill for 20 minutes.\r\n\r\nSTEP 3\r\n\r\nHeat 1cm of oil in a large frying pan over a medium heat. Fry the fofos in batches for 2 minutes on each side, turning gently to get an even golden brown colour all over. Drain on kitchen paper and repeat with the remaining fofos.\r\n\r\nSTEP 4\r\n\r\nFor the onion salad, mix together the onion, coriander and lemon juice with a pinch of salt. Serve with the fofos and mango chutney.",
+        "image_url": "https://www.themealdb.com/images/media/meals/a15wsa1614349126.jpg",
+        "youtube_url": "https://www.youtube.com/watch?v=YXUZHK2PrV8",
+        "source_url": "https://www.olivemagazine.com/recipes/fish-and-seafood/fish-fofos/",
+        "ingredients": [
+            {
+                "ingredient": "Haddock",
+                "measure": "600g"
+            },
+            {
+                "ingredient": "Potatoes",
+                "measure": "300g"
+            },
+            {
+                "ingredient": "Green Chilli",
+                "measure": "1 chopped"
+            },
+            {
+                "ingredient": "Coriander",
+                "measure": "3 tbs"
+            },
+            {
+                "ingredient": "Cumin Seeds",
+                "measure": "1 tsp"
+            },
+            {
+                "ingredient": "Pepper",
+                "measure": "1/2 tsp"
+            },
+            {
+                "ingredient": "Garlic",
+                "measure": "3 cloves"
+            },
+            {
+                "ingredient": "Ginger",
+                "measure": "2 pieces"
+            },
+            {
+                "ingredient": "Flour",
+                "measure": "2 tbs"
+            },
+            {
+                "ingredient": "Eggs",
+                "measure": "3"
+            },
+            {
+                "ingredient": "Breadcrumbs",
+                "measure": "75g"
+            },
+            {
+                "ingredient": "Vegetable Oil",
+                "measure": "For frying"
+            }
+        ],
+        "tags": []
+    },
+    "52882": {
+        "id": "52882",
+        "name": "Three Fish Pie",
+        "cuisine": "British",
+        "category": "Seafood",
+        "instructions": "Preheat the oven to 200C/400F/Gas 6 (180C fan).\r\nPut the potatoes into a saucepan of cold salted water. Bring up to the boil and simmer until completely tender. Drain well and then mash with the butter and milk. Add pepper and taste to check the seasoning. Add salt and more pepper if necessary.\r\nFor the fish filling, melt the butter in a saucepan, add the leeks and stir over the heat. Cover with a lid and simmer gently for 10 minutes, or until soft. Measure the flour into a small bowl. Add the wine and whisk together until smooth.\r\nAdd the milk to the leeks, bring to the boil and then add the wine mixture. Stir briskly until thickened. Season and add the parsley and fish. Stir over the heat for two minutes, then spoon into an ovenproof casserole. Scatter over the eggs. Allow to cool until firm.\r\nSpoon the mashed potatoes over the fish mixture and mark with a fork. Sprinkle with cheese.\r\nBake for 30-40 minutes, or until lightly golden-brown on top and bubbling around the edges.",
+        "image_url": "https://www.themealdb.com/images/media/meals/spswqs1511558697.jpg",
+        "youtube_url": "https://www.youtube.com/watch?v=Ds1Jb8H5Sg8",
+        "source_url": "https://www.bbc.co.uk/food/recipes/three_fish_pie_58875",
+        "ingredients": [
+            {
+                "ingredient": "Potatoes",
+                "measure": "1kg"
+            },
+            {
+                "ingredient": "Butter",
+                "measure": "Knob"
+            },
+            {
+                "ingredient": "Milk",
+                "measure": "Dash"
+            },
+            {
+                "ingredient": "Gruyere",
+                "measure": "50g"
+            },
+            {
+                "ingredient": "Butter",
+                "measure": "75g"
+            },
+            {
+                "ingredient": "Leek",
+                "measure": "2 sliced"
+            },
+            {
+                "ingredient": "Plain Flour",
+                "measure": "75g"
+            },
+            {
+                "ingredient": "White Wine",
+                "measure": "150ml"
+            },
+            {
+                "ingredient": "Milk",
+                "measure": "568ml"
+            },
+            {
+                "ingredient": "Parsley",
+                "measure": "2 tbs chopped"
+            },
+            {
+                "ingredient": "Salmon",
+                "measure": "250g"
+            },
+            {
+                "ingredient": "Haddock",
+                "measure": "250g"
+            },
+            {
+                "ingredient": "Smoked Haddock",
+                "measure": "250g"
+            },
+            {
+                "ingredient": "Eggs",
+                "measure": "6"
+            }
+        ],
+        "tags": [
+            "Fish",
+            "Seafood",
+            "Dairy",
+            "Pie"
+        ]
+    },
+    "52944": {
+        "id": "52944",
+        "name": "Escovitch Fish",
+        "cuisine": "Jamaican",
+        "category": "Seafood",
+        "instructions": "Rinse fish; rub with lemon or lime, seasoned with salt and pepper or use your favorite seasoning. I used creole seasoning. Set aside or place in the oven to keep it warm until sauce is ready.\r\n\r\nIn large skillet heat oil over medium heat, until hot, add the fish, cook each side- for about 5-7 minutes until cooked through and crispy on both sides. Remove fish and set aside. Drain oil and leave about 2-3 tablespoons of oil\r\nAdd, bay leave, garlic and ginger, stir-fry for about a minute making sure the garlic does not burn\r\nThen add onion, bell peppers, thyme, scotch bonnet, sugar, all spice-continue stirring for about 2-3 minutes. Add vinegar, mix an adjust salt and pepper according to preference. Let it simmer for about 2 more minutes. \r\n\r\nDiscard bay leave, thyme spring and serve over fish with a side of this bammy. You may make the sauce about 2 days in advance.",
+        "image_url": "https://www.themealdb.com/images/media/meals/1520084413.jpg",
+        "youtube_url": "https://www.youtube.com/watch?v=nF6DOtGE6k8",
+        "source_url": "https://www.africanbites.com/jamaican-escovitched-fish/",
+        "ingredients": [
+            {
+                "ingredient": "Red Snapper",
+                "measure": "2 Pounds"
+            },
+            {
+                "ingredient": "Vegetable Oil",
+                "measure": "1/2 cup"
+            },
+            {
+                "ingredient": "Garlic",
+                "measure": "1 clove peeled crushed"
+            },
+            {
+                "ingredient": "Ginger",
+                "measure": "1/2 tsp"
+            },
+            {
+                "ingredient": "Thyme",
+                "measure": "2 sprigs"
+            },
+            {
+                "ingredient": "Bay Leaf",
+                "measure": "1"
+            },
+            {
+                "ingredient": "Red Pepper",
+                "measure": "0.5"
+            },
+            {
+                "ingredient": "Yellow Pepper",
+                "measure": "0.5"
+            },
+            {
+                "ingredient": "Onion",
+                "measure": "1 sliced"
+            },
+            {
+                "ingredient": "Carrots",
+                "measure": "1 chopped"
+            },
+            {
+                "ingredient": "Sugar",
+                "measure": "1 tbs"
+            },
+            {
+                "ingredient": "Allspice",
+                "measure": "1/2 tsp"
+            },
+            {
+                "ingredient": "Worcestershire Sauce",
+                "measure": "1 tsp"
+            },
+            {
+                "ingredient": "Scotch Bonnet",
+                "measure": "1"
+            },
+            {
+                "ingredient": "Lime",
+                "measure": "1"
+            },
+            {
+                "ingredient": "Malt Vinegar",
+                "measure": "3/4 cup"
+            },
+            {
+                "ingredient": "Pepper",
+                "measure": "pinch"
+            }
+        ],
+        "tags": [
+            "Seafood",
+            "Spicy",
+            "Speciality",
+            "Easter"
+        ]
+    },
+    "53079": {
+        "id": "53079",
+        "name": "Fish Soup (Ukha)",
+        "cuisine": "Russian",
+        "category": "Seafood",
+        "instructions": "In a medium pot, heat the olive oil over medium-high heat. Add the onions and cook, stirring occasionally until the onions start to caramelize. Add the carrots and cook until the carrots start to soften, about 4 more minutes.\r\nAdd the stock, water, potatoes, bay leaves, and black peppercorns. Season with salt and bring to a boil. Reduce heat, cover and cook for 10 minutes. Add the millet and cook for 15 more minutes until millet and potatoes are cooked.\r\nGently add the fish cubes. Stir and bring the soup to a simmer. The fish will cook through very fast, so make sure to not overcook them. They are done when the flesh is opaque and flakes easily.\r\nGarnish the soup with chopped fresh dill or parsley before serving.",
+        "image_url": "https://www.themealdb.com/images/media/meals/7n8su21699013057.jpg",
+        "youtube_url": "https://www.youtube.com/watch?v=cS3Yn-y5uVg",
+        "source_url": "https://www.curiouscuisiniere.com/ukha-russian-fish-soup/",
+        "ingredients": [
+            {
+                "ingredient": "Olive Oil",
+                "measure": "2 tbs"
+            },
+            {
+                "ingredient": "Onion",
+                "measure": "1 sliced"
+            },
+            {
+                "ingredient": "Carrots",
+                "measure": "2 medium"
+            },
+            {
+                "ingredient": "Fish Stock",
+                "measure": "3 cups"
+            },
+            {
+                "ingredient": "Water",
+                "measure": "3 cups"
+            },
+            {
+                "ingredient": "Potatoes",
+                "measure": "4 large"
+            },
+            {
+                "ingredient": "Bay Leaf",
+                "measure": "3"
+            },
+            {
+                "ingredient": "Cod",
+                "measure": "1"
+            },
+            {
+                "ingredient": "Salmon",
+                "measure": "1"
+            }
+        ],
+        "tags": [
+            "Soup"
+        ]
+    }
+}

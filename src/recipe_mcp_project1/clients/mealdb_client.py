@@ -83,3 +83,26 @@ class MealDBClient:
     def get_random_meal(self) -> list[dict[str, Any]]:
         """Retrieve a random meal."""
         return self._search(random_meal=True)
+
+    def get_cuisines(self) -> list[str]:
+        """Retrieve the cuisine names supported by TheMealDB."""
+        response = requests.get(
+            f"{settings.base_url}/list.php",
+            params={"a": "list"},
+            timeout=settings.request_timeout,
+        )
+        response.raise_for_status()
+
+        payload = response.json()
+        meals = payload.get("meals")
+        if not isinstance(meals, list):
+            return []
+
+        cuisines = [
+            meal["strArea"].strip()
+            for meal in meals
+            if isinstance(meal, dict)
+            and isinstance(meal.get("strArea"), str)
+            and meal["strArea"].strip()
+        ]
+        return list(dict.fromkeys(cuisines))
