@@ -33,6 +33,22 @@ def register_recipe_tools(
         return service.search_recipes(dish_name, max_results)
 
     @mcp.tool()
+    def search_recipes_by_first_letter(
+        first_letter: str,
+        max_results: int = 5,
+    ) -> list[str]:
+        """Search TheMealDB by a recipe's first letter and save matches.
+
+        Args:
+            first_letter: The single letter (a-z) to search by.
+            max_results: Maximum number of recipes to save (1 to 25).
+
+        Returns:
+            A list of recipe IDs.
+        """
+        return service.search_recipes_by_first_letter(first_letter, max_results)
+
+    @mcp.tool()
     def get_recipe_details_by_id(recipe_id: str) -> str | list[str]:
         """Retrieve recipe details using a recipe ID.
 
@@ -43,4 +59,3 @@ def register_recipe_tools(
             Recipe details or a readable error message.
         """
         return service.get_recipe_by_id(recipe_id)
-

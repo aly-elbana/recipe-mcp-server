@@ -134,3 +134,58 @@ class RecipeService:
             return self.repository.get_recipe_details(recipe_id.strip())
         except OSError as exc:
             return [f"Error: Could not load recipe information: {exc}"]
+        
+    def search_recipes_by_first_letter(
+        self,
+        first_letter: str,
+        max_results: int = 5,
+    ) -> list[str]:
+        """Search by initial letter, save recipes, and return their IDs."""
+        if not isinstance(first_letter, str):
+            return ["Error: first_letter must be a single letter (a-z)."]
+
+        first_letter = first_letter.strip().lower()
+        if len(first_letter) != 1 or first_letter not in "abcdefghijklmnopqrstuvwxyz":
+            return ["Error: first_letter must be a single letter (a-z)."]
+
+        if (
+            not isinstance(max_results, int)
+            or isinstance(max_results, bool)
+            or not 1 <= max_results <= 25
+        ):
+            return ["Error: max_results must be an integer between 1 and 25."]
+
+
+        try:
+            meals = self.client.search_by_first_letter(first_letter)
+        except requests.Timeout:
+            return ["Error: The recipe API request timed out."]
+        except requests.RequestException as exc:
+            return [f"Error: Recipe API request failed: {exc}"]
+        except ValueError:
+            return ["Error: The recipe API returned invalid JSON."]
+
+        if not meals:
+            return [f"No recipes found starting with: {first_letter}"]
+
+        recipes: dict[str, dict[str, Any]] = {}
+
+        for meal in meals[:max_results]:
+            recipe_id = meal.get("idMeal")
+
+            if not recipe_id:
+                continue
+
+            recipes[str(recipe_id)] = normalize_recipe(meal)
+
+        if not recipes:
+            return [
+                "Error: The API response did not contain valid recipe IDs."
+            ]
+
+        try:
+            self.repository.save_recipes(first_letter, recipes)
+        except OSError as exc:
+            return [f"Error: Could not save recipe information: {exc}"]
+
+        return list(recipes)
