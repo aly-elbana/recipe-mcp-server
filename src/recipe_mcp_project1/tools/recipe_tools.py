@@ -49,6 +49,15 @@ def register_recipe_tools(
         return service.search_recipes_by_first_letter(first_letter, max_results)
 
     @mcp.tool()
+    def get_random_recipe() -> list[str]:
+        """Fetch a random recipe from TheMealDB and save its details.
+
+        Returns:
+            A list containing the saved recipe ID, or a readable error.
+        """
+        return service.get_random_recipe()
+
+    @mcp.tool()
     def get_recipe_details_by_id(recipe_id: str) -> str | list[str]:
         """Retrieve recipe details using a recipe ID.
 

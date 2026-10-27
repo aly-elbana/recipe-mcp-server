@@ -1,18 +1,27 @@
+"""Client for communicating with TheMealDB API."""
+
 from typing import Any
 
 import requests
 
 from recipe_mcp_project1.config import settings
 
+
 class MealDBClient:
     """Client responsible for communicating with TheMealDB API."""
 
     @staticmethod
-    def _search(params: dict[str, str]) -> list[dict[str, Any]]:
-        """Execute a meal search and return valid, unique records."""
+    def _search(
+        params: dict[str, str] | None = None,
+        *,
+        random_meal: bool = False,
+    ) -> list[dict[str, Any]]:
+        """Fetch meals, validate the response, and remove duplicates."""
+        endpoint = "random.php" if random_meal else "search.php"
+
         response = requests.get(
-            f"{settings.base_url}/search.php",
-            params=params,
+            f"{settings.base_url}/{endpoint}",
+            params=None if random_meal else params,
             timeout=settings.request_timeout,
         )
         response.raise_for_status()
@@ -55,8 +64,22 @@ class MealDBClient:
 
     def search_by_name(self, dish_name: str) -> list[dict[str, Any]]:
         """Search meals by name."""
-        return MealDBClient._search({"s": dish_name})
+        return self._search({"s": dish_name})
 
-    def search_by_first_letter(self, letter: str) -> list[dict[str, Any]]:
+    def search_by_first_letter(
+        self,
+        letter: str,
+    ) -> list[dict[str, Any]]:
         """Search meals by their first letter."""
-        return MealDBClient._search({"f": letter.lower()})
+        if (
+            not isinstance(letter, str)
+            or len(letter) != 1
+            or letter.lower() not in "abcdefghijklmnopqrstuvwxyz"
+        ):
+            raise ValueError("Please provide a single letter (a-z).")
+
+        return self._search({"f": letter.lower()})
+
+    def get_random_meal(self) -> list[dict[str, Any]]:
+        """Retrieve a random meal."""
+        return self._search(random_meal=True)

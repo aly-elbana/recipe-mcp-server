@@ -189,3 +189,31 @@ class RecipeService:
             return [f"Error: Could not save recipe information: {exc}"]
 
         return list(recipes)
+
+    def get_random_recipe(self) -> list[str]:
+        """Fetch a random recipe, save it, and return its ID."""
+        try:
+            meals = self.client.get_random_meal()
+        except requests.Timeout:
+            return ["Error: The recipe API request timed out."]
+        except requests.RequestException as exc:
+            return [f"Error: Recipe API request failed: {exc}"]
+        except ValueError:
+            return ["Error: The recipe API returned invalid JSON."]
+
+        if not meals:
+            return ["No random recipe was returned by the recipe API."]
+
+        meal = meals[0]
+        recipe_id = meal.get("idMeal")
+        if not recipe_id:
+            return ["Error: The API response did not contain a valid recipe ID."]
+
+        recipes = {str(recipe_id): normalize_recipe(meal)}
+
+        try:
+            self.repository.save_recipes("random", recipes)
+        except OSError as exc:
+            return [f"Error: Could not save recipe information: {exc}"]
+
+        return list(recipes)
