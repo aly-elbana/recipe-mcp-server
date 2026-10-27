@@ -121,3 +121,23 @@ class RecipeRepository:
                 )
 
         return f"No saved recipe found with ID: {recipe_id}"
+
+    def get_all_recipes(self) -> dict[str, dict[str, Any]]:
+        """Load unique saved recipes from every search directory."""
+        recipes: dict[str, dict[str, Any]] = {}
+        if not self.recipes_dir.exists():
+            return recipes
+
+        for file_path in sorted(
+            self.recipes_dir.glob("*/recipes_info.json")
+        ):
+            dish_recipes = self._load(file_path)
+            for recipe_id, recipe in dish_recipes.items():
+                if not isinstance(recipe, dict):
+                    raise ValueError(
+                        f"Expected a recipe object for ID {recipe_id} "
+                        f"in {file_path}."
+                    )
+                recipes[str(recipe_id)] = recipe
+
+        return recipes
